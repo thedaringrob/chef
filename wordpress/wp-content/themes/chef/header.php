@@ -17,11 +17,9 @@
       </div>
         <div class="nav_right">
           <?php wp_nav_menu(); ?>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
       </nav>
     </header>
-    <div class="clear">
-</div>
+    <div class="clear"></div>
 
     <div class="container">
