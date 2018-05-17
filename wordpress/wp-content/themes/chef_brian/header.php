@@ -23,9 +23,13 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'chef_brian' ); ?></a>
+
+<!-- //this applies the background  -->
 	<?php if (!is_front_page() && get_post_type($post->id) == 'page') { ?>
 		<div class="header_img bgimg" style="background-image:url(<?php the_post_thumbnail_url($post -> id, 'large');  ?>)">
-	<?php } ?>
+	<?php }?>
+
+
 	<header id="masthead" class="site-header">
 		<div class="">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
